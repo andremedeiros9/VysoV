@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="VizoV:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>VizoV</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="VizoV.war">
+      <element id="artifact" artifact-name="VizoV:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+html {
+    background: #9e0a0a;
+}
+
+body {
+    background: transparent;
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3;
+}
+
+h2 {
+    margin-top: .5em;
+}
+
+h2, h4 {
+    color: #e26600;
+}
+
+a {
+    color: #e26600;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+i {
+    margin-right: .5em;
+}
+
+/** LOGIN **/
+
+.login{
+    background-color: #f26522;
+    color: #fff;
+    padding: .5em 11em;
+    border: none;
+    box-shadow: 0px 8px 10px #500505;
+}
+
+.register {
+    background-color: #b68b77;
+    color: #fff;
+    padding: .5em 10.6em;
+    border: none;
+}
+
+/** PROFILE **/
+
+#userInfo {
+    border-bottom: .1em solid #b64747; 
+    text-align: center;
+}
+
+#username {
+    font-size: 2em;
+    margin-left: 4.5em;
+}
+
+.logoutButton {
+    background: #000;
+    box-shadow: 0px 2px 4px 0 #e26600;
+    border: none;
+    color: #fff;
+    padding: .5em 3em;
+    margin-top: 1em;
+}
+
+picture img {
+    border: 5px solid #e26600 ;
+    height: auto;
+    width: 9em; 
+}
+
+#achieveList ul {
+    padding-left: 0;
+}
+#achieveList ul li {
+    list-style-type: none;
+    margin: .5em 0;
+}
+
+.newChallengeButton {
+    background: #e26600;
+    box-shadow: 0px 2px 4px 0 #000;
+    border: none;
+    color: #fff;
+    margin: 1em 0;
+    padding: 1em 6em;
+    text-transform: uppercase;
+}
+
+.challenge {
+    background: #7a0a0a;
+    margin-bottom: 1em;
+}
+
+.challenge ul li {
+    list-style-type: none;
+    padding: .25em 0;
+}
+
+/** CHALLENGES **/
+
+.rerollButton {
+    background-color: #f26522;
+    color: #fff;
+    padding: 1em 6em;
+    border: none;
+    box-shadow: 0px 8px 10px #500505;
+}
+
+.challengeButton {
+    background-color: #f26522;
+    color: #fff;
+    padding: 1em;
+    border: none;
+    box-shadow: 0px 8px 10px #500505;
+    margin-top: 1em;
+}
+
+a.glow:hover, a.glow:focus
+{
+	text-decoration: none;
+	color: #aaf;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+}
+a.glow:hover, a.glow:focus
+{
+	color: #fff;
+	text-shadow: -1px 1px 5px #ffc, 1px -1px 5px #fff;
+}
+/**     CHOSEN CHALLENGE **/
+
+.form-control-file {
+    background-color: #f26522;
+    color: #fff;
+    border: none;
+    border-radius: .25rem .25rem;
+    box-shadow: 0px 8px 10px #500505;
+    padding: .3em;
+}
+
+
+#sButton {
+    text-align: right;
+    
+}
+
+.return-btn {
+    background-color:black;
+    color:  white;
+    border: none;
+    border-radius: .25rem .25rem;
+    padding: .5em 2em;
+    box-shadow: 0px 1px 5px #e26600;
+}
+
+.submitButton{
+    background-color: #f26522;
+    color: #fff;
+    border: none;
+    border-radius: .25rem .25rem;
+    padding: .5em 2em;
+    box-shadow: 0px 8px 10px #500505;
+}

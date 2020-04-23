@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>VyzoV - Challenge Site</title>
+    <meta name="description" content="A site that challenges you!">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="floating-labels.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="row justify-content-center py-4">
+                 <h1><img src="images/logo.png" alt="VyzoV - Challenge Site"></h1>
+            </div>
+        </header>
+        <main>
+            <div class="row justify-content-center">
+                <h2>You've Been Challenged</h2>
+            </div>
+            <div class="row justify-content-center py-4">
+                <form action="/action_page.php" method="GET">
+                    <div class="form-label-group">
+                        <input type="text" id="name" class="form-control" name="name" placeholder="Name">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-label-group">
+                        <input type="text" id="password" class="form-control" name="password" placeholder="Password">
+                        <label for="Password">Password</label>
+                        <small class="form-text" id="forgotPW"><a href="">[Retrieve Password]</a></small>
+                    </div>
+                    <div class="form-group">
+                        <button onclick="document.location ='profile.html'" class="login btn" type="button">Sign In</button> 
+                    </div>
+                    <div class="form-group">
+                        <button  class="register btn" type="button">Register</button> 
+                    </div>
+                </form>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

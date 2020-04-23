@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>VyzoV - Challenge Site - Profile</title>
+        <meta name="description" content="A site that challenges you!">
+        <link href="resources/fontawesome.css" rel="stylesheet">
+        <link href="resources/solid.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="row justify-content-center py-4">
+                    <h1><img src="images/logo.png" alt="VyzoV - Challenge Site"></h1>
+                </div>
+            </header>
+            <main>
+                <div class="row justify-content-center py-4 align-items-center" id="userInfo">
+                    <div class="col-3" id="profileImg">
+                        <picture>
+                            <img src="images\profile.jpg" alt="User's Profile Image" class="rounded-circle">
+                        </picture>
+                        <button onclick="document.location ='index.html'" type="button" class="btn logoutButton">Logout</button>
+                    </div>
+                    <div class="col">
+                        <p id="username">mguix [Comrade]</p>   
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                </div>
+                <div class="row justify-content-center py-4">
+                    <div class="col-sm" id="achieveList">
+                        <h3>Achievements</h3>
+                        <ul>
+                            <li><i class="fas fa-star"></i>The Poet</li>
+                            <li><i class="fas fa-star"></i>Favorite Son</li>
+                            <li><i class="fas fa-star"></i>Matryoshka</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Challenges Completed</h3>
+                        <button onclick="document.location ='challenges.html'" type="button" class="btn newChallengeButton">Start New Challenge</button>
+                        <div class="card challenge">
+                            <div class="card-body">
+                                <h4>Tier 1</h4>
+                                <ul>
+                                    <li>"Russian morning"</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card challenge">
+                            <div class="card-body">
+                                <h4>Tier 2</h4>
+                                <ul>
+                                    <li>"The Stalingrad Express"</li>
+                                    <li>"Midnight star"</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
